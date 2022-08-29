@@ -6,7 +6,8 @@ const showInfo = (id) => {
 	menuTabs.forEach((tab) => tab.classList.remove("menu-tab-active"));
 	document.getElementById(id).style.display = "block";
 
-	const currentActiveBtn = document.querySelector(`[data-id=${id}]`);
-    console.log(currentActiveBtn);
+	const currentActiveBtn = document.querySelector(`[data-id=${id}]`);	
 	currentActiveBtn.classList.add("menu-tab-active");
 };
+
+// menuTabs.forEach((btn) => btn.addEventListener("click", showInfo));
