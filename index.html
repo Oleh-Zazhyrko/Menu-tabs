@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu tabs</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@200;400;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e7319fd88e.js" crossorigin="anonymous"></script>
+
+
+
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu-tabs">
+            <button data-id="first-tab" onclick="showInfo('first-tab')" class="menu-tab menu-tab-active">Position 1</button>
+            <button data-id="second-tab" onclick="showInfo('second-tab')" class="menu-tab">Position 2</button>
+            <button data-id="third-tab" onclick="showInfo('third-tab')" class="menu-tab">Position 3</button>
+            <button data-id="fourth-tab" onclick="showInfo('fourth-tab')" class="menu-tab">Position 4</button>
+        </div>
+
+        <div class="menu-section" id="first-tab">
+            <h3>Sekcja 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quo odit rerum magni nemo ipsam alias error ipsa ad id?</p>
+            <p>Amet corporis nobis praesentium voluptatem totam eveniet in culpa, eos, vitae dicta ab ipsa veniam aliquam esse, inventore voluptas? Quis.</p>
+            <p>Molestias architecto similique eum? Voluptatem praesentium itaque enim dignissimos aliquam. Doloremque ab perferendis sequi repellendus minus quia voluptatum laudantium cumque?</p>
+        </div>
+        <div class="menu-section" id="second-tab" style="display: none">
+            <h3>Sekcja 2</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nam.</p>
+            <p>Cum corrupti libero aut ipsum ex dolorum quae atque magni.</p>
+            <p>Laborum illo porro debitis. Perferendis possimus laudantium magni quaerat corporis?</p>
+            <p>Sed laboriosam nulla id ducimus ab deserunt, assumenda ut illo!</p>
+        </div>
+        <div class="menu-section" id="third-tab" style="display: none">
+            <h3>Sekcja 3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quibusdam similique, illo nostrum tempore eligendi?</p>
+            <p>Placeat et dicta accusamus eos pariatur voluptatibus harum quam alias explicabo maxime. Animi, quaerat adipisci?</p>
+            <p>Repellat iste voluptatum sed deleniti numquam illum quod sint magni aperiam, necessitatibus, eos quam voluptatibus?</p>
+            <p>Accusamus molestiae quos modi necessitatibus assumenda debitis unde maxime officiis esse. Molestiae nostrum nobis placeat!</p>
+            <p>Non repellendus, doloribus, iure quas aut vitae sed quidem ut magnam deserunt distinctio tempora? Labore.</p>
+        </div>
+        <div class="menu-section" id="fourth-tab" style="display: none">
+            <h3>Sekcja 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque dolore quis itaque ut, alias sapiente corrupti velit totam, hic voluptatibus ad repudiandae ipsum. Ex!</p>
+            <p>Accusamus doloremque debitis explicabo modi eum perspiciatis voluptatum est, ab dolorem, quam repellendus, id dolores ducimus tempora magnam harum illum quaerat cupiditate? Amet, delectus eveniet!</p>
+        </div>
+    </div>
+   
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
