@@ -1,1 +1,1 @@
-https://github.com/Oleh-Zazhyrko/Menu-tabs
+https://oleh-zazhyrko.github.io/Menu-tabs
